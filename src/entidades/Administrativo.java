@@ -16,5 +16,8 @@ public class Administrativo extends Empleado {
 	public void setHsMes(Float hsMes) {
 		this.hsMes = hsMes;
 	}
+	public Float getHsTotales() {
+		return this.hsMes + this.hsExtra;
+	}
 
 }
